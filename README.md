@@ -1,4 +1,6 @@
-# spacce🚴‍♂️ 
+# Spacce🚴‍♂️ 
+
+# Under construction!!!
 
 An interactive React and Python application for simulating and monitoring training metrics such as **power**, **heart rate**, **cadence**, **speed**, and **total time**. The project includes Bluetooth device selection, real-time graph visualization, and a backend powered by FastAPI.
 
@@ -31,10 +33,8 @@ This project is built with:
 ## 📂 Project Structure
 
 ```
-cycling-training-dashboard/
-├── backend/                  # FastAPI backend
-│   ├── main.py               # Main FastAPI app
-├── public/                   # Public files
+pypedal/
+├── main.py                  # # Main FastAPI app
 ├── src/
 │   ├── components/
 │   │   ├── DeviceSearch.js   # Component for device selection
