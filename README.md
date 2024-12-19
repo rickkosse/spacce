@@ -2,7 +2,6 @@
 
 A React and FastAPI application for indoor cycling that connects with Bluetooth devices to monitor real-time training metrics. Features both real device data and simulation capabilities.
 
-![Demo Screenshot](demo-image-placeholder.png)
 
 ## ✨ Features
 
@@ -151,10 +150,6 @@ Contributions are welcome! Follow these steps to contribute:
 ## 📄 License
 
 This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for more details.
-
-## 🎨 Screenshot
-
-![Training Dashboard Screenshot](screenshot-placeholder.png)
 
 ---
 
