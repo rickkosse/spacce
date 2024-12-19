@@ -1,19 +1,33 @@
-# Spacce🚴‍♂️ 
+# Spacce 🚴‍♂️ 
 
-# Under construction!!!
-
-An interactive React and Python application for simulating and monitoring training metrics such as **power**, **heart rate**, **cadence**, **speed**, and **total time**. The project includes Bluetooth device selection, real-time graph visualization, and a backend powered by FastAPI.
+A React and FastAPI application for indoor cycling that connects with Bluetooth devices to monitor real-time training metrics. Features both real device data and simulation capabilities.
 
 ![Demo Screenshot](demo-image-placeholder.png)
 
-## 🎯 Features
+## ✨ Features
 
-- **Simulated training data** (power, heart rate, cadence, speed)
-- **Real-time graphs** to visualize power output over time
-- **Bluetooth device selection**: Choose trainer, heart rate monitor, cadence sensor, speed sensor, and power meter
-- **Time display in minutes**
-- **Responsive design** for desktop and mobile
-- **Python backend** with FastAPI for managing data
+- **Bluetooth Device Integration**
+  - Smart Trainers (ANT+/BLE)
+  - Heart Rate Monitors
+  - Cadence & Speed Sensors
+  - Power Meters
+  
+- **Real-time Metrics**
+  - Power output tracking
+  - Heart rate monitoring
+  - Cadence and speed data
+  - Time-based data graphs
+  
+- **Simulation Mode**
+  - Test without physical devices
+  - Compare real vs simulated data
+  - Realistic data generation
+  
+- **User Interface**
+  - Clean, modern design
+  - Real-time data visualization
+  - Device connection management
+  - Mobile responsive layout
 
 ## 🛠️ Technologies
 
@@ -49,9 +63,13 @@ pypedal/
 └── backend/requirements.txt  # Python dependencies
 ```
 
-## 🚀 Installation and Setup
+## 🛠️ Setup
 
-Follow these steps to run the project locally:
+### Prerequisites
+- Python 3.8+
+- Node.js 14+
+- npm/yarn
+- Bluetooth-enabled device
 
 ### Frontend
 1. **Clone the repository**
@@ -73,21 +91,22 @@ Follow these steps to run the project locally:
 4. **View the app**
    Open your browser and go to: [http://localhost:3000](http://localhost:3000)
 
-### Backend
-1. **Navigate to the backend folder**
-   ```bash
-   cd backend
-   ```
+### Backend Setup
+```bash
+# Clone repository
+git clone https://github.com/yourusername/spacce.git
+cd spacce
 
-2. **Install Python dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+# Create virtual environment
+python -m venv venv
+.\venv\Scripts\activate
 
-3. **Run the FastAPI server**
-   ```bash
-   uvicorn main:app --reload
-   ```
+# Install dependencies
+pip install -r requirements.txt
+
+# Start FastAPI server
+uvicorn main:app --reload
+```
 
 4. **View the API**
    Open your browser and go to: [http://127.0.0.1:8000](http://127.0.0.1:8000)
@@ -139,4 +158,4 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for m
 
 ---
 
-**Author:** Rick Kosse  
+**Author:** Rick Kosse
